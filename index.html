@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Expenses chart component</title>
+    <!-- <script type="text/javascript" src="./data.json"></script> -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="my__balance__flex border__radius__medium">
+        <div class="my__balance__flex__item1">
+          <p class="my__balance__title">My balance</p>
+          <p class="my__balance__total">$921.48</p>
+        </div>
+        <div class="my__balance__flex__item2">
+          <img src="./images/logo.svg" />
+        </div>
+      </section>
+      <section class="chart__container border__radius__medium">
+        <div class="chart__main__title">
+          <h1>Spending - Last 7 days</h1>
+        </div>
+        <ul class="chart__statistics__flex">
+          <li class="chart__statistics__days__flex__item"></li>
+          <li class="chart__statistics__days__flex__item"></li>
+          <li class="chart__statistics__days__flex__item"></li>
+          <li class="chart__statistics__days__flex__item"></li>
+          <li class="chart__statistics__days__flex__item"></li>
+          <li class="chart__statistics__days__flex__item"></li>
+          <li class="chart__statistics__days__flex__item"></li>
+        </ul>
+        <div class="spending__total__flex">
+          <div class="spending__total__flex__item1">
+            <p class="total__this__month__title">Total this month</p>
+            <h2>$478.33</h2>
+          </div>
+          <div class="spending__total__flex__item2">
+            <h3>+2.4%</h3>
+            <p class="from__last__month__title">from last month</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="./scripts/script.js"></script>
+    <!-- add attribute type="module" if you want to import file .json from lcoal -->
+  </body>
+</html>
